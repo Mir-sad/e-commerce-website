@@ -1,0 +1,40 @@
+.cart{
+    .cart-items{
+        display: flex;
+
+        justify-content: space-between;
+        .cart-item{
+            
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            text-align:left;
+            img{
+                margin-top: 100px;
+                width: 250px;
+                height: 250px;
+                object-fit: contain;
+            }
+            .txt{
+                margin-top: 50px;
+                margin-left: 50px;
+                p{
+                    font-size: 20px;
+                    margin-top: 10px;
+                    
+                }
+                button{
+                    background-color: red;
+                    width: 150px;
+                    height: 30px;
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 10px;
+                   } 
+            }
+          
+        
+        }
+        
+    }
+}
